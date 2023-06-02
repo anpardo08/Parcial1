@@ -1,0 +1,170 @@
+body {
+    background-color: #e8ecef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form1 {
+    max-width: 280px;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    text-align: initial;
+}
+
+.titulo {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.titulo>label {
+    font-size: 60px;
+    color: #485357;
+}
+
+#formulario {
+    font-size: 12px;
+    color: #878f96;
+}
+
+.form-input {
+    display: flex;
+    border-radius: 5px;
+    margin: 20px auto;
+    min-width: 100%;
+    border: 1px solid #878f96;
+    max-width: fit-content;
+    padding: 10px 0px 10px 0px;
+}
+
+.form-input>input {
+    font-size: 15px;
+    border-style: none;
+}
+
+.form-input>input:focus {
+    outline: none;
+}
+
+.afi {
+    text-align: center;
+}
+
+.gustos {
+    border-radius: 5px;
+    border: 1px solid #878f96;
+    display: flex;
+    min-height: 70px;
+    padding: 5px 0px 5px 0px;
+}
+
+.Gustos-form {
+    display: flex;
+    border: none
+}
+
+.Gustos-form>input {
+    border: 1px solid #878f96;
+    border-right: 0px;
+    padding: 10px 0px 10px 0px;
+    max-width: fit-content;
+    min-width: 80%;
+}
+
+.flag {
+    background-color: #28b948;
+    color: white;
+    border-radius: 1px;
+    margin: 2px 4px;
+    max-width: fit-content;
+    min-width: 15%;
+    padding: 5px;
+    display: flex;
+    align-items: justify;
+}
+
+.band {
+    max-width: 30px;
+    margin: 3px auto;
+}
+
+.tabla {
+
+    min-width: 180px;
+    max-width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    word-break: break-all;
+    border-spacing: 0px;
+}
+
+.tabla>td {
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.tabla>tbody>tr>td {
+    color: #afb0b3;
+    border: 1px solid #878f96;
+
+}
+
+.tabla1>th {
+    color: #292826;
+    border: 1px solid #878f96;
+    min-width: 55px;
+    max-width: fit-content;
+}
+
+.envios {
+    text-align: initial;
+}
+
+.fas {
+    width: 33%;
+    color: #878f96;
+    text-align: right;
+    margin: 0px 10px;
+}
+
+#boton1 {
+    padding: 5px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: transparent;
+    color: #28b948;
+    border: 2px solid #28b948;
+}
+
+#cancelar {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #ee1212;
+    color: #ee1212;
+}
+.aceptar {
+    visibility: hidden;
+
+}
+
+#aceptar {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #878f96;
+    border: 1px solid #878f96;
+}
+
+#tabla {
+    text-align: center;
+}
+
+#editar {
+    word-break: keep-all;
+    color: #1229de;
+}
+
+#web {
+    color: #1f92e8;
+}
+

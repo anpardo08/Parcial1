@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Parcialcss.css">
+    <script src="https://kit.fontawesome.com/e21011aaba.js" crossorigin="anonymous"></script>
+    <title>Registro</title>
+    <meta charset="UTF-8">
+    <script src="Parcialjs.js"></script>
+</head>
+
+
+<body>
+    <div class="titulo">
+        <div class="firts-title">
+            <label for="title"><b>Web</b>Developer</label>
+        </div>
+        <form class="form1" action="Formulario.html" method="get" onsubmit="enviar()" onreset="cancelar()" id="form1">
+            <div class="afiliacion">
+                <div class="afi">
+                    <label for="formulario" id="formulario">Formulario de afiliación</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Nombre Completo" name="Nombre">
+                    <span class="fas fa-user"></span>
+                </div>
+                <div class="form-input">
+                    <input type="email" placeholder="Email" required name="email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="text" required name="telefono">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="Gustos-form form-input">
+                    <input type="text" id="input1" class="gutinp">
+                    <button id="boton1" type="button" onclick="agregarfila()">Gustos</button>
+                </div>
+                <div class="gustos">
+                    <div class="flag">
+                        <i class="flag fa-regular fa-font-awesome"></i>
+                    </div>
+                    <div class="tablagus">
+                        <table class="tabla" id="tabla">
+                            <tr class="tabla1">
+                                <th>Gusto</th>
+                                <th>%</th>
+                                <th id="editar">edit</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="aceptar" id="oculto">
+                    <label for="text" id="formulario">Pulse Aceptar para guardar los cambios o cancelar para
+                        anularlos</label>
+                    <div class="envios">
+                        <button id="aceptar" onclick="recargar()">Aceptar</button>
+                        <button type="reset" id="cancelar" onclick="cancelar()">Cancelar</button>
+                    </div>
+                </div>
+                <div id="web">
+                    <a href="" class="form_link">Ir a Site de P web</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+
+</html>

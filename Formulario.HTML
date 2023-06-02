@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Parcialcss.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="cuerpo" onload="traerdatos()">
+    <div class="titulo"><h2>Resultado</h2></div>
+    <div class="container text-center" style="text-align: center; margin-top: 2%; margin-left: 30%;">
+        <div>
+            <div style="font-size: medium;">
+                <div class="card col-sm-5 sombra">
+                    <div class="row portada secciones" style="font-size: medium; background-color: rgb(71, 177, 209);">
+                        <div class="col-3">
+                            <img src="feliz.png" alt="Sonrisa" class="m-3" width="75" height="75">
+                        </div>
+                        <div class="col-9 nombre" style="text-align: center; background-color: rgb(71, 177, 209);">
+                            <p style="color: white; padding-top: 8%; font-size: medium;" id="nombreregistro" class="nombreregistro"></p>
+                            <p style="color:white; font-size: medium;"> Ficha </p>
+                        </div>
+                    </div>
+                    <div class="datos row secciones text-center">
+                        <div class="izq col-6" style="padding-top: 2%;">
+                            <p style="font-size: medium;">Email</p>
+                        </div>
+                        <div class="der col-6" style="padding-top: 2%;">
+                            <div class="card" style="height: 20px; width: 200px; background-color: blue;">
+                                <span style="font-size: small; color: white;" id="emaildato" class="emaildato"></span>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="datos row text-center secciones">
+                        <div class="izq col-6">
+                            <p style="font-size: medium;">Telefono</p>
+                        </div>
+                        <div class="der col-6">
+                            <div class="card" style="height: 20px; width: 200px; background-color: rgb(131, 175, 211);">
+                                <span style="font-size: small; color: white;" id="telefonodato" class="telefonodato"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="datos row text-center secciones">
+                        <div class="izq col-6">
+                            <p style="font-size: medium;">Gusto</p>
+                        </div>
+                        <div class="der col-6">
+                            <div class="card" style="height: 20px; width: 200px; background-color: rgb(67, 179, 67);">
+                                <span style="font-size: small; color: white;" id="gusto" class="gusto"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="datos row text-center secciones ultimo">
+                        <div class="izq col-6">
+                            <p style="font-size: medium;">Porcentaje %</p>
+                        </div>
+                        <div class="der col-6">
+                            <div class="card" style="height: 20px; width: 200px; background-color: rgb(204, 52, 52);">
+                                <span style="font-size: small; color: white;" id="porcentaje" class="porcentaje"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Parcialjs.js"></script>
+</body>
+</html>
